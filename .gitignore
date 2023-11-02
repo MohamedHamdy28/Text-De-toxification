@@ -1,2 +1,6 @@
 data/raw/filtered_paranmt.zip
 data/raw/filtered.tsv
+notebooks/test.ipynb
+data/interim/training.csv
+data/interim/testing.csv
+data/interim/toxic_neutral_data.csv
