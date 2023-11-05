@@ -33,9 +33,8 @@ Throughout the training process, key performance indicators such as loss and sty
 Upon completion of the training, the model demonstrated a significant improvement in handling the detoxification process.
 
 | Model          | Style Transfer Accuracy | Mean Cosine Similarity |
-|----------------|-------------------------|------------------------|
-| T5 Based Model | X.XX                    | X.XX                   |
-
+| -------------- | ----------------------- | ---------------------- |
+| T5 Based Model | 0.17                    | 0.99                   |
 
 The results indicate that the T5 model could maintain a high degree of the original message's intent while reducing toxicity effectively.
 
