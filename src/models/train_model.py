@@ -79,7 +79,7 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 # Define training arguments
 training_args = Seq2SeqTrainingArguments(
-    output_dir="T5-detoxification",
+    output_dir="../../models/final_solution",
     evaluation_strategy="steps",
     eval_steps=1000,
     save_strategy="epoch",
