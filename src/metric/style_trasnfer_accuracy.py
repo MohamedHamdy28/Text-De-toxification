@@ -8,7 +8,7 @@ class StyleTransferAccuracy:
 
         self.tokenizer = RobertaTokenizer.from_pretrained('SkolkovoInstitute/roberta_toxicity_classifier')
         self.model = RobertaForSequenceClassification.from_pretrained('SkolkovoInstitute/roberta_toxicity_classifier')
-        
+
         # Move the model to the GPU
         self.model = self.model.to(self.device)
 

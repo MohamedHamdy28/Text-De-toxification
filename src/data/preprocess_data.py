@@ -22,5 +22,5 @@ toxic_neutral_data = pd.read_csv("../../data/interim/toxic_neutral_data.csv")
 
 train_df, test_df = train_test_split(toxic_neutral_data, test_size=0.2, random_state=42)
 
-train_df.to_csv(r"../../data/interim/training.csv")
-test_df.to_csv(r"../../data/interim/testing.csv")
+train_df.to_csv(r"../../data/interim/training.csv", index=False)
+test_df.to_csv(r"../../data/interim/testing.csv", index=False)
