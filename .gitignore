@@ -4,3 +4,4 @@ notebooks/test.ipynb
 data/interim/training.csv
 data/interim/testing.csv
 data/interim/toxic_neutral_data.csv
+models/final_solution/checkpoint-5778-20231105T143239Z-001.zip
