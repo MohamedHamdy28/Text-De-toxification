@@ -16,9 +16,7 @@ The encoder is responsible for reading the input text and generating an intermed
 
 The fine-tuning process involved tailoring the pre-trained T5 model to the specific requirements of text detoxification. A dataset comprised of sentences labeled for toxicity was used, ensuring a broad spectrum of linguistic patterns was covered.
 
-```plaintext
-# Insert an image of the T5 architecture here when available.
-![T5 Architecture](path-to-t5-architecture-image)
+![T5 Architecture](figures/T5.png)
 
 ## Training
 
@@ -38,7 +36,6 @@ Upon completion of the training, the model demonstrated a significant improvemen
 |----------------|-------------------------|------------------------|
 | T5 Based Model | X.XX                    | X.XX                   |
 
-*Note: Replace `X.XX` with actual results.*
 
 The results indicate that the T5 model could maintain a high degree of the original message's intent while reducing toxicity effectively.
 
@@ -51,4 +48,3 @@ The fine-tuned T5 model showed an enhanced ability to understand context and nua
 The final solution utilizing the T5 model has proven to be a robust approach to text detoxification. It represents a significant step forward in creating a more respectful and inclusive digital communication landscape. This solution is not only effective in reducing toxicity but also adept at maintaining the integrity of the original message, which is paramount in effective communication.
 
 Future work will include ongoing model refinement and the exploration of additional data sources to further enhance the model's performance.
-```
